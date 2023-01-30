@@ -1,0 +1,20 @@
+PODS:
+  - OpenTelemetry-Swift (0.1.0):
+    - OpenTelemetry-Swift/OpenTelemetryApi (= 0.1.0)
+    - OpenTelemetry-Swift/OpenTelemetrySdk (= 0.1.0)
+  - OpenTelemetry-Swift/OpenTelemetryApi (0.1.0)
+  - OpenTelemetry-Swift/OpenTelemetrySdk (0.1.0)
+
+DEPENDENCIES:
+  - OpenTelemetry-Swift (from `../../`)
+
+EXTERNAL SOURCES:
+  OpenTelemetry-Swift:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  OpenTelemetry-Swift: f93945fbe38c4d19bcce584c15b9800502c9e5ac
+
+PODFILE CHECKSUM: 79ff112ae67d6528a7f56293fd6b42c60c73cc4e
+
+COCOAPODS: 1.11.3
