@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'OpenTelemetry-Swift'
+  s.name             = 'OpenTelemetryApi'
   s.version          = '0.1.0'
   s.summary          = 'A swift OpenTelemetry client.'
 
@@ -31,11 +31,5 @@ Libraries that produce telemetry data should only depend on OpenTelemetryApi, an
 
   s.ios.deployment_target = '11.0'
 
-  s.subspec 'OpenTelemetryApi' do |subspec|
-    subspec.source_files = ["Sources/OpenTelemetryApi/**/*.swift"]
-  end
-
-  s.subspec 'OpenTelemetrySdk' do |subspec|
-    subspec.source_files = ["Sources/OpenTelemetrySdk/**/*.swift"]
-  end
+  s.source_files = ["Sources/OpenTelemetryApi/**/*.swift"]
 end

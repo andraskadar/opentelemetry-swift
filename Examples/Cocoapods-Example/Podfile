@@ -3,5 +3,6 @@ use_frameworks!
 ensure_bundler!
 
 target 'OpenTelemetry-Swift-Example' do
-  pod 'OpenTelemetry-Swift', :path => '../../'
+  pod 'OpenTelemetryApi', :path => '../../'
+  pod 'OpenTelemetrySdk', :path => '../../'
 end

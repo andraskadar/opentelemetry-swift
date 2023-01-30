@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double OpenTelemetry_SwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char OpenTelemetry_SwiftVersionString[];
+FOUNDATION_EXPORT double OpenTelemetryApiVersionNumber;
+FOUNDATION_EXPORT const unsigned char OpenTelemetryApiVersionString[];
 

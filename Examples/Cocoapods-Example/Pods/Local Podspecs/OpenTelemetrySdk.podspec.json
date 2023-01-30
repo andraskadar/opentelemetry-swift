@@ -1,0 +1,24 @@
+{
+  "name": "OpenTelemetrySdk",
+  "version": "0.1.0",
+  "summary": "A swift OpenTelemetry client.",
+  "description": "This package includes several libraries. The OpenTelemetryApi library includes protocols and no-op implementations that comprise the OpenTelemetry API following the specification. The OpenTelemetrySdk library is the reference implementation of the API.\n\nLibraries that produce telemetry data should only depend on OpenTelemetryApi, and defer the choice of the SDK to the application developer. Applications may depend on OpenTelemetrySdk or another package that implements the API.",
+  "homepage": "https://github.com/open-telemetry/OpenTelemetry-Swift",
+  "license": {
+    "type": "APACHE",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Open Telemetry": "info@opentelemetry.io"
+  },
+  "source": {
+    "git": "https://github.com/Andras Kadar/OpenTelemetry-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": [
+    "Sources/OpenTelemetrySdk/**/*.swift"
+  ]
+}

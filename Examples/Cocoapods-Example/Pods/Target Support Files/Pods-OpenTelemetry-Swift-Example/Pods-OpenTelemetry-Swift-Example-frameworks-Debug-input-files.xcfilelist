@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-OpenTelemetry-Swift-Example/Pods-OpenTelemetry-Swift-Example-frameworks.sh
-${BUILT_PRODUCTS_DIR}/OpenTelemetry-Swift/OpenTelemetry_Swift.framework
+${BUILT_PRODUCTS_DIR}/OpenTelemetryApi/OpenTelemetryApi.framework
+${BUILT_PRODUCTS_DIR}/OpenTelemetrySdk/OpenTelemetrySdk.framework

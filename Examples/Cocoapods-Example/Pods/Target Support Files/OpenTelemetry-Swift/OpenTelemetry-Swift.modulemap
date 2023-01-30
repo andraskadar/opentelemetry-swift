@@ -1,6 +1,0 @@
-framework module OpenTelemetry_Swift {
-  umbrella header "OpenTelemetry-Swift-umbrella.h"
-
-  export *
-  module * { export * }
-}
