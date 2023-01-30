@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "11.0"
   },
+  "dependencies": {
+    "OpenTelemetryApi": [
+
+    ]
+  },
   "source_files": [
     "Sources/OpenTelemetrySdk/**/*.swift"
   ]

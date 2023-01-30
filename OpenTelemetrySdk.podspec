@@ -31,5 +31,7 @@ Libraries that produce telemetry data should only depend on OpenTelemetryApi, an
 
   s.ios.deployment_target = '11.0'
 
+  s.dependency "OpenTelemetryApi"
+
   s.source_files = ["Sources/OpenTelemetrySdk/**/*.swift"]
 end

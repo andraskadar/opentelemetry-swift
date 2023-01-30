@@ -1,6 +1,7 @@
 PODS:
   - OpenTelemetryApi (0.1.0)
-  - OpenTelemetrySdk (0.1.0)
+  - OpenTelemetrySdk (0.1.0):
+    - OpenTelemetryApi
 
 DEPENDENCIES:
   - OpenTelemetryApi (from `../../`)
@@ -14,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   OpenTelemetryApi: a69e7aafa792e9641723a7d7c955e4146dd08571
-  OpenTelemetrySdk: d8eacb1e43935533cda1b1cd55bde69f3783d713
+  OpenTelemetrySdk: 123067dbc6b03360940423f1b597af164926546c
 
 PODFILE CHECKSUM: 964ffcc641c3fdf33e52f59250fa71e802c11079
 
