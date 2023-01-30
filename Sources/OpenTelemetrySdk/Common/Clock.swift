@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /// Interface for getting the current time.
 public protocol Clock: AnyObject {

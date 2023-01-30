@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /// TracerSdk is SDK implementation of Tracer.
 public class TracerSdk: Tracer {

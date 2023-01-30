@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 class BoundHistogramMetricSdkBase<T>: BoundHistogramMetric<T> {
     override init(explicitBoundaries: Array<T>? = nil) {

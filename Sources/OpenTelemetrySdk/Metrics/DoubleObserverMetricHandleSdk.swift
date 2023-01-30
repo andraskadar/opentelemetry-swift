@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 struct DoubleObserverMetricHandleSdk: DoubleObserverMetricHandle {
     public private(set) var aggregator = LastValueAggregator<Double>()

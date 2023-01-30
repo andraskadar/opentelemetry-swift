@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 struct DoubleObservableGaugeHandle: DoubleObserverMetricHandle {
     public private(set) var aggregator = MaxValueAggregator<Double>()

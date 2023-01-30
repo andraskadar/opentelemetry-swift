@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 class CounterMetricSdk<T: SignedNumeric>: CounterMetricSdkBase<T> {
     override init(name: String) {

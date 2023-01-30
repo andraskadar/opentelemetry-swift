@@ -4,9 +4,7 @@
 // 
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 class LoggerSharedState {
     var resource : Resource

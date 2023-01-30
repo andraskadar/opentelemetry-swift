@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 public extension Meter {
     func addMetric(name: String, type: AggregationType, data: [MetricData]) {

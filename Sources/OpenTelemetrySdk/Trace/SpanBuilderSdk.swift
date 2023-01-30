@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /// SpanBuilderSdk is SDK implementation of SpanBuilder.
 class SpanBuilderSdk: SpanBuilder {

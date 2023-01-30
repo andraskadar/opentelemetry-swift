@@ -4,9 +4,7 @@
 // 
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 public class LoggerBuilderSdk : LoggerBuilder {
     private var registry : ComponentRegistry<LoggerSdk>

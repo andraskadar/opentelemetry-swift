@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /**
  * Implementation of a EnvironmentContextPropagation propagation, using W3CTraceContextPropagator

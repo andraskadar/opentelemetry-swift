@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 internal class BoundMeasureMetricSdk<T: SignedNumeric & Comparable>: BoundMeasureMetricSdkBase<T> {
     private var measureAggregator = MeasureMinMaxSumCountAggregator<T>()

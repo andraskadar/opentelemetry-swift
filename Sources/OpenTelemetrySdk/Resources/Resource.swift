@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /// Resource represents a resource, which capture identifying information about the entities
 /// for which signals (stats or traces) are reported.

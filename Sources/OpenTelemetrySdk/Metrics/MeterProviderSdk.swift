@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 public class MeterProviderSdk: MeterProvider {
     private let lock = Lock()

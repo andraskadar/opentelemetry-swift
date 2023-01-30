@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 class BoundCounterMetricSdk<T: SignedNumeric>: BoundCounterMetricSdkBase<T> {
     private var sumAggregator = CounterSumAggregator<T>()

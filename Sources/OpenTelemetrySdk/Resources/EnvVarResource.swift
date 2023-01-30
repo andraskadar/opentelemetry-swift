@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /// Provides a framework for detection of resource information from the environment variable "OC_RESOURCE_LABELS".
 public struct EnvVarResource {

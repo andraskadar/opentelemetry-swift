@@ -4,9 +4,7 @@
  */
 
 import Foundation
-#if !COCOAPODS
 import OpenTelemetryApi
-#endif
 
 /// The extend Span interface used by the SDK.
 public protocol ReadableSpan: Span {
