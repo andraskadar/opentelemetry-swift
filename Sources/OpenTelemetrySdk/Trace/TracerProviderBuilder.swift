@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 public class TracerProviderBuilder {
     public private(set) var clock : Clock = MillisClock()

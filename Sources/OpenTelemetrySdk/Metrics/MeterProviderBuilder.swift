@@ -4,7 +4,9 @@
  */
 import Foundation
 
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 public class MeterProviderBuilder {
     public private(set) var resource : Resource = Resource()

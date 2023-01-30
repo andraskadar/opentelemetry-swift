@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 public class TracerProviderSdk: TracerProvider {
     private var tracerLock = pthread_rwlock_t()

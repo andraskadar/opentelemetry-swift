@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 internal class MeasureMetricSdk<T: SignedNumeric & Comparable>: MeasureMetric {
     public private(set) var boundInstruments = [LabelSet: BoundMeasureMetricSdkBase<T>]()

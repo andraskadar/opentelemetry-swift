@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 /// Represents the shared state/config between all Tracers created by the same TracerProvider.
 class TracerSharedState {

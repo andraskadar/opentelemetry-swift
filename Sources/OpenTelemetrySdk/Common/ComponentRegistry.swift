@@ -4,7 +4,9 @@
 // 
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class ComponentRegistry<T> {
     private var lock = Lock()

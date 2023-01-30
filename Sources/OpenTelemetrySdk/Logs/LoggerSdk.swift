@@ -4,7 +4,9 @@
 // 
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 import os.log
 
 public class LoggerSdk : OpenTelemetryApi.Logger {

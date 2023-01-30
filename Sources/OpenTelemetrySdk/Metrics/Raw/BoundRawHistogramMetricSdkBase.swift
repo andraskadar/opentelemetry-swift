@@ -5,7 +5,9 @@
 
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 
 class BoundRawHistogramMetricSdkBase<T> : BoundRawHistogramMetric<T> {

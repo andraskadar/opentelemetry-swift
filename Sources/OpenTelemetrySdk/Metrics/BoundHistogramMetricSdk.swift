@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 internal class BoundHistogramMetricSdk<T: SignedNumeric & Comparable>: BoundHistogramMetricSdkBase<T> {
     private var histogramAggregator: HistogramAggregator<T>

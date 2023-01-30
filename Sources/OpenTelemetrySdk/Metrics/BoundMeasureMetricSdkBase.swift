@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class BoundMeasureMetricSdkBase<T>: BoundMeasureMetric<T> {
     override init() {

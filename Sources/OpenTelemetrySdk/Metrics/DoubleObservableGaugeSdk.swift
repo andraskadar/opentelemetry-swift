@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class DoubleObservableGaugeSdk: DoubleObserverMetric {
     public private(set) var observerHandles = [LabelSet: DoubleObservableGaugeHandle]()

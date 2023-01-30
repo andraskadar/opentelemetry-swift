@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class BoundRawCounterMetricSdk<T: SignedNumeric> : BoundRawCounterMetricSdkBase<T> {
     var metricData = [MetricData]()

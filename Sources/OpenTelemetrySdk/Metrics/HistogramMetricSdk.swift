@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 internal class HistogramMetricSdk<T: SignedNumeric & Comparable>: HistogramMetric {
     public private(set) var boundInstruments = [LabelSet: BoundHistogramMetricSdkBase<T>]()

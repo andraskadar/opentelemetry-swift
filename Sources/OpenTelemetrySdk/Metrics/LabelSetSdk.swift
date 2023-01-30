@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 /// LabelSet implementation.
 class LabelSetSdk: LabelSet {

@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 internal class RawCounterMetricSdk<T : SignedNumeric & Comparable> : RawCounterMetricSdkBase<T> {
 

@@ -4,7 +4,9 @@
 // 
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 public class LoggerProviderSdk : LoggerProvider {
     private var sharedState: LoggerSharedState

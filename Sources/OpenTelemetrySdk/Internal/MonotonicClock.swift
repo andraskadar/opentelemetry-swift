@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 /// This class provides a mechanism for calculating the epoch time using a reference date
 /// This clock needs to be re-created periodically in order to re-sync with the kernel clock, and

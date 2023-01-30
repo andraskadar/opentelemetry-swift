@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 
 internal class RawHistogramMetricSdk<T : SignedNumeric & Comparable> : RawHistogramMetricSdkBase<T> {

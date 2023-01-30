@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 /// Struct to access a set of pre-defined Samplers.
 public enum Samplers {

@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class RawCounterMetricSdkBase<T> : RawCounterMetric {
     private let bindUnbindLock = Lock()

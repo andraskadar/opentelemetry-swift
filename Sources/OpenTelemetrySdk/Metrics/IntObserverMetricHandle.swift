@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class IntObserverMetricSdk: IntObserverMetric {
     public private(set) var observerHandles = [LabelSet: IntObserverMetricHandleSdk]()

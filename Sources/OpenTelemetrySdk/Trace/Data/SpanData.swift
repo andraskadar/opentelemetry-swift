@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 /// representation of all data collected by the Span.
 public struct SpanData: Equatable, Codable {

@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class BoundCounterMetricSdkBase<T>: BoundCounterMetric<T> {
     internal var status: RecordStatus

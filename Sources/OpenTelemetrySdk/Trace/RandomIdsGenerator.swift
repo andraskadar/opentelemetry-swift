@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 public struct RandomIdGenerator: IdGenerator {
     public init() {}

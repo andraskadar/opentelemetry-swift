@@ -5,7 +5,9 @@
 
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 class BoundRawCounterMetricSdkBase<T>: BoundRawCounterMetric<T> {
     internal var status : RecordStatus

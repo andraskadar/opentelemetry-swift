@@ -4,7 +4,9 @@
  */
 
 import Foundation
+#if !COCOAPODS
 import OpenTelemetryApi
+#endif
 
 /// Interface that is used by the TracerSdk to generate new SpanId and TraceId.
 public protocol IdGenerator {
